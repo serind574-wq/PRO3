@@ -9,7 +9,7 @@
  *   npx playwright install chromium
  *
  * Run:
- *   node run-finale.js https://kind-street-188208.puter.site
+ *   node run-finale.js https://jolly-road-702644.puter.site
  */
 
 const { chromium } = require('playwright');
@@ -18,7 +18,7 @@ const { chromium } = require('playwright');
 const TARGET_URL =
   process.argv[2] ||
   process.env.TARGET_URL ||
-  'https://kind-street-188208.puter.site';
+  'https://jolly-road-702644.puter.site';
 
 const BROWSER_SCRIPT = () => {
   // ============================================================================
